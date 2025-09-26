@@ -1,6 +1,6 @@
-# 🏰 Moff Tarkin
+# 🏰 Moff Tarkin: Character-Based Strategic Decision-Making AI
 
-Training models to think like fictional strategic masterminds - not just talk like them.
+> **Training models to think like fictional strategic masterminds - not just talk like them.**
 
 ## What this is
 
@@ -18,6 +18,17 @@ MoE with learnable routing. Key points:
 - Multiple experts active per forward pass
 - GRPO training with constitutional character constraints
 - Character-specific reward functions
+
+```mermaid
+graph LR
+    A[Business Situation] --> B[Character Internal Monologue]
+    B --> C[Strategic Decision]
+    C --> D[Justification & Execution]
+    D --> E[In-Character Delivery]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#9ff,stroke:#333,stroke-width:2px
+```
 
 ```
 Input → Learned Router → [Tywin | Chuck | Partagaz] → Weighted Output
