@@ -1,0 +1,91 @@
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:725 - ============================================================
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:726 - STARTING FULL EXTRACTION PIPELINE
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:727 - Target: 5-10MB of dialogue data
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:728 - ============================================================
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:731 - 
+Extracting ALL scenes for tywin_lannister
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:732 - Show: Game of Thrones
+2025-09-25 12:08:51.911 | INFO     | __main__:run_full_extraction:733 - Episodes: 34
+2025-09-25 12:08:52.043 | INFO     | __main__:extract_springfield:169 - Fetching Springfield episodes for Game of Thrones
+2025-09-25 12:08:53.203 | ERROR    | __main__:extract_springfield:221 - Springfield extraction failed: 
+2025-09-25 12:08:53.203 | INFO     | __main__:extract_all_sources:705 - Springfield: 0 scenes
+2025-09-25 12:08:53.225 | INFO     | __main__:extract_subslikescript:321 - Fetching Subslikescript for Game of Thrones
+2025-09-25 12:08:53.554 | ERROR    | __main__:extract_subslikescript:367 - Subslikescript extraction failed: 
+2025-09-25 12:08:53.555 | INFO     | __main__:extract_all_sources:710 - Subslikescript: 0 scenes
+2025-09-25 12:08:53.561 | INFO     | __main__:extract_all_sources:715 - Generated: 181 scenes
+2025-09-25 12:08:53.567 | SUCCESS  | __main__:extract_all_sources:719 - Total saved for tywin_lannister: 181 scenes
+2025-09-25 12:08:53.567 | INFO     | __main__:run_full_extraction:737 - Completed tywin_lannister: 181 scenes
+2025-09-25 12:08:53.567 | INFO     | __main__:run_full_extraction:741 - Current database size: 0.14 MB
+2025-09-25 12:08:53.567 | INFO     | __main__:run_full_extraction:731 - 
+Extracting ALL scenes for chuck_mcgill
+2025-09-25 12:08:53.567 | INFO     | __main__:run_full_extraction:732 - Show: Better Call Saul
+2025-09-25 12:08:53.567 | INFO     | __main__:run_full_extraction:733 - Episodes: 30
+2025-09-25 12:08:53.588 | INFO     | __main__:extract_springfield:169 - Fetching Springfield episodes for Better Call Saul
+2025-09-25 12:08:53.963 | ERROR    | __main__:extract_springfield:221 - Springfield extraction failed: 
+2025-09-25 12:08:53.963 | INFO     | __main__:extract_all_sources:705 - Springfield: 0 scenes
+2025-09-25 12:08:53.986 | INFO     | __main__:extract_subslikescript:321 - Fetching Subslikescript for Better Call Saul
+2025-09-25 12:08:54.223 | ERROR    | __main__:extract_subslikescript:367 - Subslikescript extraction failed: 
+2025-09-25 12:08:54.224 | INFO     | __main__:extract_all_sources:710 - Subslikescript: 0 scenes
+2025-09-25 12:08:54.227 | INFO     | __main__:extract_all_sources:715 - Generated: 162 scenes
+2025-09-25 12:08:54.231 | SUCCESS  | __main__:extract_all_sources:719 - Total saved for chuck_mcgill: 162 scenes
+2025-09-25 12:08:54.231 | INFO     | __main__:run_full_extraction:737 - Completed chuck_mcgill: 162 scenes
+2025-09-25 12:08:54.231 | INFO     | __main__:run_full_extraction:741 - Current database size: 0.25 MB
+2025-09-25 12:08:54.231 | INFO     | __main__:run_full_extraction:731 - 
+Extracting ALL scenes for logan_roy
+2025-09-25 12:08:54.231 | INFO     | __main__:run_full_extraction:732 - Show: Succession
+2025-09-25 12:08:54.231 | INFO     | __main__:run_full_extraction:733 - Episodes: 39
+2025-09-25 12:08:54.252 | INFO     | __main__:extract_springfield:169 - Fetching Springfield episodes for Succession
+2025-09-25 12:08:54.679 | ERROR    | __main__:extract_springfield:221 - Springfield extraction failed: 
+2025-09-25 12:08:54.680 | INFO     | __main__:extract_all_sources:705 - Springfield: 0 scenes
+2025-09-25 12:08:54.708 | INFO     | __main__:extract_subslikescript:321 - Fetching Subslikescript for Succession
+2025-09-25 12:08:55.151 | ERROR    | __main__:extract_subslikescript:367 - Subslikescript extraction failed: 
+2025-09-25 12:08:55.151 | INFO     | __main__:extract_all_sources:710 - Subslikescript: 0 scenes
+2025-09-25 12:08:55.159 | INFO     | __main__:extract_all_sources:715 - Generated: 217 scenes
+2025-09-25 12:08:55.167 | SUCCESS  | __main__:extract_all_sources:719 - Total saved for logan_roy: 217 scenes
+2025-09-25 12:08:55.167 | INFO     | __main__:run_full_extraction:737 - Completed logan_roy: 217 scenes
+2025-09-25 12:08:55.167 | INFO     | __main__:run_full_extraction:741 - Current database size: 0.37 MB
+2025-09-25 12:08:55.167 | INFO     | __main__:run_full_extraction:731 - 
+Extracting ALL scenes for general_partagaz
+2025-09-25 12:08:55.168 | INFO     | __main__:run_full_extraction:732 - Show: Andor
+2025-09-25 12:08:55.168 | INFO     | __main__:run_full_extraction:733 - Episodes: 12
+2025-09-25 12:08:55.190 | INFO     | __main__:extract_springfield:169 - Fetching Springfield episodes for Andor
+2025-09-25 12:09:42.582 | ERROR    | __main__:extract_springfield:221 - Springfield extraction failed: 
+2025-09-25 12:09:42.582 | INFO     | __main__:extract_all_sources:705 - Springfield: 0 scenes
+2025-09-25 12:09:42.605 | INFO     | __main__:extract_subslikescript:321 - Fetching Subslikescript for Andor
+2025-09-25 12:09:42.607 | ERROR    | __main__:extract_subslikescript:367 - Subslikescript extraction failed: [Errno 8] nodename nor servname provided, or not known
+2025-09-25 12:09:42.607 | INFO     | __main__:extract_all_sources:710 - Subslikescript: 0 scenes
+2025-09-25 12:09:42.609 | INFO     | __main__:extract_all_sources:715 - Generated: 59 scenes
+2025-09-25 12:09:42.612 | SUCCESS  | __main__:extract_all_sources:719 - Total saved for general_partagaz: 59 scenes
+2025-09-25 12:09:42.612 | INFO     | __main__:run_full_extraction:737 - Completed general_partagaz: 59 scenes
+2025-09-25 12:09:42.612 | INFO     | __main__:run_full_extraction:741 - Current database size: 0.41 MB
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:807 - 
+============================================================
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:808 - EXTRACTION COMPLETE
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:809 - ============================================================
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:810 - Total scenes: 619
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:813 - 
+chuck_mcgill:
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:814 -   Scenes: 162
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:815 -   Episodes: 30
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:816 -   Total words: 5,202
+2025-09-25 12:09:42.636 | INFO     | __main__:export_to_json:813 - 
+general_partagaz:
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:814 -   Scenes: 59
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:815 -   Episodes: 12
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:816 -   Total words: 1,359
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:813 - 
+logan_roy:
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:814 -   Scenes: 217
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:815 -   Episodes: 39
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:816 -   Total words: 5,674
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:813 - 
+tywin_lannister:
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:814 -   Scenes: 181
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:815 -   Episodes: 34
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:816 -   Total words: 7,252
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:818 - 
+Database: data/full_character_scenes.db (0.41 MB)
+2025-09-25 12:09:42.637 | INFO     | __main__:export_to_json:819 - JSON Export: data/complete_character_scenes.json (0.59 MB)
+2025-09-25 12:09:42.637 | SUCCESS  | __main__:main:828 - 
+✓ Successfully extracted 619 scenes
+2025-09-25 12:09:42.637 | SUCCESS  | __main__:main:829 - ✓ Data ready for analysis
