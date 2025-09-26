@@ -1,6 +1,8 @@
-# 🏰 Moff Tarkin: Character-Based Strategic Decision-Making AI
+# 🏰 moff-tarkin: Character-Based Strategic Decision-Making AI
 
 > **Training models to think like fictional strategic masterminds - not just talk like them.**
+
+![Tywin Lannister](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUxam9zbWN4eXY3OWtnZWh6ZnQxZHM2dXVxY2NwZ3VmODRpeW14byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ofSB33mf3mfhnrwpW/giphy.gif)
 
 ## What this is
 
