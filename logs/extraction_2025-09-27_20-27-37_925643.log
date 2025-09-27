@@ -1,0 +1,31 @@
+2025-09-27 20:27:38.036 | INFO     | __main__:extract_character_scenes:33 - Starting extraction for tywin_lannister
+2025-09-27 20:27:38.036 | INFO     | __main__:extract_character_scenes:43 - Scraping Game of Thrones from all sources...
+2025-09-27 20:27:38.036 | INFO     | scrapers.script_scrapers:scrape_all_sources:285 - Trying springfield for Game of Thrones
+2025-09-27 20:28:11.431 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:11.432 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/episode_scripts.php?tv-show=game-of-thrones
+2025-09-27 20:28:11.440 | INFO     | scrapers.script_scrapers:get_show_episodes:39 - Found 76 episodes for Game of Thrones
+2025-09-27 20:28:16.478 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:16.478 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e01
+2025-09-27 20:28:16.485 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e02cb5f5fb157a11c13f54216ca12269.html
+2025-09-27 20:28:21.667 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:21.667 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e02
+2025-09-27 20:28:21.676 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9616f3142b763ec20fccd875b66ea957.html
+2025-09-27 20:28:26.713 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:26.713 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e03
+2025-09-27 20:28:26.721 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/f656ce4ec6143d8ef812daedb615d9a4.html
+2025-09-27 20:28:31.551 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:31.551 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e04
+2025-09-27 20:28:31.560 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1e47c8176efb7493ea77c1e3c926f095.html
+2025-09-27 20:28:36.134 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:36.135 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e05
+2025-09-27 20:28:36.144 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/67f745079a73175e0c1a8fba635ccf0c.html
+2025-09-27 20:28:36.144 | INFO     | scrapers.base_scraper:batch_scrape:288 - Batch scrape complete: 5/5 successful
+2025-09-27 20:28:36.144 | INFO     | scrapers.base_scraper:batch_scrape:289 - Success rate: 6/6
+2025-09-27 20:28:36.144 | INFO     | scrapers.script_scrapers:scrape_all_sources:285 - Trying 8flix for Game of Thrones
+2025-09-27 20:28:42.943 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:28:42.943 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://8flix.com/search?q=Game+of+Thrones
+2025-09-27 20:28:42.961 | INFO     | scrapers.script_scrapers:scrape_all_sources:285 - Trying subslikescript for Game of Thrones
+2025-09-27 20:28:43.593 | SUCCESS  | scrapers.base_scraper:_fetch_tls_client:111 - TLS client fetch successful: https://subslikescript.com/search?q=Game_of_Thrones
+2025-09-27 20:28:43.595 | INFO     | __main__:extract_character_scenes:50 - Found 5 scripts/episodes
+2025-09-27 20:28:43.597 | ERROR    | storage.database:save_scene:109 - Error saving scene: Error binding parameter 14: type 'list' is not supported
+2025-09-27 20:28:43.597 | INFO     | __main__:extract_character_scenes:69 - Extracted 1 scenes for tywin_lannister

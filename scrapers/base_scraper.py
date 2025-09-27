@@ -12,9 +12,9 @@ from datetime import datetime
 import sys
 sys.path.append('..')
 
-from utils.antidetect import StealthBrowser, ProxyRotator, HumanBehavior, TLSClient
-from utils.captcha_solver import CaptchaSolver, CloudflareBypasser
-from config.settings import PROXY_CONFIG, STEALTH_CONFIG, CAPTCHA_CONFIG, USER_AGENTS
+from scrapers.antidetect import StealthBrowser, ProxyRotator, HumanBehavior, TLSClient
+from scrapers.captcha_solver import CaptchaSolver, CloudflareBypasser
+from settings import PROXY_CONFIG, STEALTH_CONFIG, CAPTCHA_CONFIG, USER_AGENTS
 
 class BaseScraper(ABC):
     """Base scraper with anti-detection and aggressive extraction"""

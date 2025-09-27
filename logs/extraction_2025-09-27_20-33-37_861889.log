@@ -1,0 +1,277 @@
+2025-09-27 20:33:37.976 | INFO     | __main__:extract_character_scenes:33 - Starting extraction for tywin_lannister
+2025-09-27 20:33:37.976 | INFO     | __main__:extract_character_scenes:43 - Scraping Game of Thrones from all sources...
+2025-09-27 20:33:37.976 | INFO     | scrapers.script_scrapers:scrape_all_sources:285 - Trying springfield for Game of Thrones
+2025-09-27 20:33:43.634 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:33:43.635 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/episode_scripts.php?tv-show=game-of-thrones
+2025-09-27 20:33:43.644 | INFO     | scrapers.script_scrapers:get_show_episodes:39 - Found 76 episodes for Game of Thrones
+2025-09-27 20:33:50.744 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:33:50.745 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e01
+2025-09-27 20:33:50.753 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e02cb5f5fb157a11c13f54216ca12269.html
+2025-09-27 20:33:55.466 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:33:55.466 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e02
+2025-09-27 20:33:55.478 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9616f3142b763ec20fccd875b66ea957.html
+2025-09-27 20:34:00.609 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:00.609 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e03
+2025-09-27 20:34:00.617 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/f656ce4ec6143d8ef812daedb615d9a4.html
+2025-09-27 20:34:05.581 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:05.582 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e04
+2025-09-27 20:34:05.590 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1e47c8176efb7493ea77c1e3c926f095.html
+2025-09-27 20:34:10.168 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:10.168 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e05
+2025-09-27 20:34:10.179 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/67f745079a73175e0c1a8fba635ccf0c.html
+2025-09-27 20:34:15.745 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:15.745 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e06
+2025-09-27 20:34:15.752 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/afcd1b823b26fcc30366574faeb2db24.html
+2025-09-27 20:34:20.354 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:20.354 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e07
+2025-09-27 20:34:20.363 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/4d94bf8d06a77c397bd988dfc516d718.html
+2025-09-27 20:34:25.221 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:25.221 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e08
+2025-09-27 20:34:25.228 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/7b169660212847370461cea6d243ac06.html
+2025-09-27 20:34:30.158 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:30.159 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e09
+2025-09-27 20:34:30.166 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/6e163911b01a420442eae3df324c04d3.html
+2025-09-27 20:34:34.975 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:34.975 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e10
+2025-09-27 20:34:34.985 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/49c510de4a7880a34bd03af7f738e460.html
+2025-09-27 20:34:39.851 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:39.852 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e01
+2025-09-27 20:34:39.860 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/5b075431ba58f50b61e6c9e19a16ffe1.html
+2025-09-27 20:34:44.811 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:44.812 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e02
+2025-09-27 20:34:44.842 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/36cd185f6e6522a7e686db97d90d579a.html
+2025-09-27 20:34:49.662 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:49.662 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e03
+2025-09-27 20:34:49.671 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1d708eb517b1b1d1ae20d0c224b63673.html
+2025-09-27 20:34:54.578 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:54.578 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e04
+2025-09-27 20:34:54.586 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/f2b65730f90a953040fa4d3729dfce96.html
+2025-09-27 20:34:59.236 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:34:59.236 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e05
+2025-09-27 20:34:59.245 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/14f89a8586b46abd9d362080e89a73a0.html
+2025-09-27 20:35:03.863 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:03.863 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e06
+2025-09-27 20:35:03.872 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9addd25ccdb77b2220f431af7ff9c59c.html
+2025-09-27 20:35:08.722 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:08.723 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e07
+2025-09-27 20:35:08.734 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/68f1a3dc9677e5053cf2bef1ab90f5ba.html
+2025-09-27 20:35:13.584 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:13.585 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e08
+2025-09-27 20:35:13.599 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/5300e8e12ce4cabc269e8019fc48b755.html
+2025-09-27 20:35:18.472 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:18.472 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e09
+2025-09-27 20:35:18.480 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1baca0900d590bce62b4f75dda701587.html
+2025-09-27 20:35:24.973 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:24.973 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s02e10
+2025-09-27 20:35:24.981 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/88e34d13c635f9e998bc578f76d25aff.html
+2025-09-27 20:35:29.651 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:29.651 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e01
+2025-09-27 20:35:29.659 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9979ecfd7848bc231061696e71316ea0.html
+2025-09-27 20:35:34.476 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:34.476 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e02
+2025-09-27 20:35:34.486 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/d2bf2c2293d1740e4d4b4f01d162c62d.html
+2025-09-27 20:35:37.741 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:37.741 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e03
+2025-09-27 20:35:37.755 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/39a7e65ddaaa00f144fc34872ec6c6f7.html
+2025-09-27 20:35:41.336 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:41.337 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e04
+2025-09-27 20:35:41.350 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/4346834c36cea35872af8fbb40850eb1.html
+2025-09-27 20:35:45.799 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:45.799 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e05
+2025-09-27 20:35:45.809 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1617ed58ed153faa0509e17348f532e2.html
+2025-09-27 20:35:49.447 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:49.447 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e06
+2025-09-27 20:35:49.464 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/bb66e188fe55fc41d8cb7d9b8289a60a.html
+2025-09-27 20:35:52.754 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:52.754 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e07
+2025-09-27 20:35:52.765 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9c4762aee5075a39d99f1e048496aca1.html
+2025-09-27 20:35:56.332 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:56.332 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e08
+2025-09-27 20:35:56.340 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/486cd4835dbc1fe1ab9ee6bf8d478684.html
+2025-09-27 20:35:59.640 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:35:59.640 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e09
+2025-09-27 20:35:59.651 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1838361129ef73d0128d721fa19d451e.html
+2025-09-27 20:36:02.918 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:02.919 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s03e10
+2025-09-27 20:36:02.928 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/10ce4591f899e7c336fc502374a27ce4.html
+2025-09-27 20:36:06.494 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:06.494 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e01
+2025-09-27 20:36:06.504 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/2312ea58e254c5729b2a4851f590dea0.html
+2025-09-27 20:36:10.769 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:10.769 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e02
+2025-09-27 20:36:10.778 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/5ba2549e00e3b5a533064a4624c1b87d.html
+2025-09-27 20:36:14.140 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:14.141 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e03
+2025-09-27 20:36:14.151 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/8473b821d6d5ee4d85def18ee364c5cc.html
+2025-09-27 20:36:17.702 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:17.702 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e04
+2025-09-27 20:36:17.710 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/f22a66d75ed01d3e42939d6dba8667ed.html
+2025-09-27 20:36:21.246 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:21.246 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e05
+2025-09-27 20:36:21.288 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/97ea4732e4769ca98678bcd53954c268.html
+2025-09-27 20:36:24.847 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:24.848 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e06
+2025-09-27 20:36:24.855 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/7967b412abb674e6c6e845dcdb9bd694.html
+2025-09-27 20:36:28.392 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:28.392 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e07
+2025-09-27 20:36:28.421 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/2c04a81ded635a233af85c5129ea6e71.html
+2025-09-27 20:36:31.978 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:31.979 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e08
+2025-09-27 20:36:31.987 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/fc042061a76b878e11f015cc06bfe505.html
+2025-09-27 20:36:35.519 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:35.519 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e09
+2025-09-27 20:36:35.526 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/53f53c5db8fa0fa672967b10561136cd.html
+2025-09-27 20:36:38.800 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:38.800 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s04e10
+2025-09-27 20:36:38.810 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e9ead415795b7057653a87525d964cf9.html
+2025-09-27 20:36:43.208 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:43.209 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e00
+2025-09-27 20:36:43.215 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/fd2a3064c80daff89e6e51aa214ea5c3.html
+2025-09-27 20:36:46.482 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:46.482 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e01
+2025-09-27 20:36:46.494 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e986dcd70ba1d056029aa833d9f8304b.html
+2025-09-27 20:36:49.860 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:49.861 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e02
+2025-09-27 20:36:49.876 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/ee1200e892e0f73a5e3e6984135d27d6.html
+2025-09-27 20:36:53.881 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:53.881 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e03
+2025-09-27 20:36:53.892 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e945d761053fc8900f854369ae0bf25b.html
+2025-09-27 20:36:57.426 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:36:57.426 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e04
+2025-09-27 20:36:57.434 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e12f18772a39361b344894e49fd38f4e.html
+2025-09-27 20:37:00.976 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:00.976 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e05
+2025-09-27 20:37:00.985 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/147b73439ad80ae44b5878210f5da31f.html
+2025-09-27 20:37:04.305 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:04.305 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e06
+2025-09-27 20:37:04.320 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1af819feff89ceb8c9a42fcbaf4f8ebe.html
+2025-09-27 20:37:07.595 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:07.596 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e07
+2025-09-27 20:37:07.604 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/881a23ded2f2e6eb7dcdedf2841a1f67.html
+2025-09-27 20:37:11.426 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:11.426 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e08
+2025-09-27 20:37:11.436 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/8340c6ea740dd77da91861e75929e6a3.html
+2025-09-27 20:37:14.921 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:14.922 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e09
+2025-09-27 20:37:14.929 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/ead8ae3caf9359c2b00bdbd39d89807b.html
+2025-09-27 20:37:18.532 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:18.533 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s05e10
+2025-09-27 20:37:18.541 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/0c6093ee0ce3f8c5be230bd5e1c6b716.html
+2025-09-27 20:37:21.789 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:21.790 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e01
+2025-09-27 20:37:21.798 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/b8ef00382c1743b91879b0814ae7fefa.html
+2025-09-27 20:37:24.844 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:24.844 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e02
+2025-09-27 20:37:24.852 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/49608f85f1dbf9ae008d3d5e6f704fbe.html
+2025-09-27 20:37:28.412 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:28.412 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e03
+2025-09-27 20:37:28.427 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/7ef8ca98baa9105b76d96fcc75c6b81f.html
+2025-09-27 20:37:31.708 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:31.709 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e04
+2025-09-27 20:37:31.717 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/03cca328210f20f4de55c4534a6e55cc.html
+2025-09-27 20:37:35.249 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:35.249 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e05
+2025-09-27 20:37:35.257 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/f61da8f328a09790ff2dbe91a4cc7330.html
+2025-09-27 20:37:38.576 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:38.577 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e06
+2025-09-27 20:37:38.588 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/0b2212b6536f9f6f1cbffe2fd3b5faa2.html
+2025-09-27 20:37:41.861 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:41.861 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e07
+2025-09-27 20:37:41.868 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/ccd5b1efadeb808d28f9868b73fc20cb.html
+2025-09-27 20:37:45.923 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:45.923 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e08
+2025-09-27 20:37:45.932 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/b441ca1af791069eb73bd7e9cb9c25bc.html
+2025-09-27 20:37:49.459 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:49.460 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e09
+2025-09-27 20:37:49.471 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/4981569399eea6122419d3c615b65b82.html
+2025-09-27 20:37:52.720 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:52.720 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s06e10
+2025-09-27 20:37:52.729 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/172fb8b85c37025f94d352b4d45a7a3d.html
+2025-09-27 20:37:56.351 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:56.351 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e00
+2025-09-27 20:37:56.389 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/d43457fad10259300635fed41a58a87d.html
+2025-09-27 20:37:59.709 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:37:59.709 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e01
+2025-09-27 20:37:59.719 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/be11fd54acc9ee46173c060a30a39bae.html
+2025-09-27 20:38:02.981 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:02.982 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e02
+2025-09-27 20:38:02.991 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9f5b86222a042d71c1cc6ec45042fd93.html
+2025-09-27 20:38:06.336 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:06.336 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e03
+2025-09-27 20:38:06.353 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/1e8c66fc51442bd0668928e033443857.html
+2025-09-27 20:38:10.682 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:10.682 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e04
+2025-09-27 20:38:10.693 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/e197cb88f9847157dae5890432ea4a47.html
+2025-09-27 20:38:14.725 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:14.725 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e05
+2025-09-27 20:38:14.734 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/9f05ac880809df02c6914e519e4af59b.html
+2025-09-27 20:38:18.942 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:18.942 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e06
+2025-09-27 20:38:18.950 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/085ee46691e11708096674336e64ab10.html
+2025-09-27 20:38:22.564 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:22.564 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s07e07
+2025-09-27 20:38:22.578 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/97e18d50c3c97033114b5b79d49d9a4b.html
+2025-09-27 20:38:26.134 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:26.134 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e01
+2025-09-27 20:38:26.145 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/6cb51d64b1ab6662b2d9c5ed650cc61c.html
+2025-09-27 20:38:29.673 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:29.673 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e02
+2025-09-27 20:38:29.683 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/3bc1c9b2c6d00afb50b10c9c7253e00a.html
+2025-09-27 20:38:32.772 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:32.773 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e03
+2025-09-27 20:38:32.779 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/58c8ce8e835806964a8fad0f1b89376f.html
+2025-09-27 20:38:44.822 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:44.823 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e04
+2025-09-27 20:38:44.837 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/699a6285b584d381b655494a0601d5a6.html
+2025-09-27 20:38:49.050 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:49.051 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e05
+2025-09-27 20:38:49.060 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/69132d93d744f3f8bfc2688e657c54aa.html
+2025-09-27 20:38:52.377 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:52.377 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e06
+2025-09-27 20:38:52.385 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/689946ebe5404622e185e734e17ce65e.html
+2025-09-27 20:38:55.926 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:38:55.926 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s08e90
+2025-09-27 20:38:55.945 | DEBUG    | scrapers.base_scraper:save_raw:316 - Saved raw content to data/raw/springfield/24e10c42533c3fcfd52519bfa19c5333.html
+2025-09-27 20:38:55.945 | INFO     | scrapers.base_scraper:batch_scrape:288 - Batch scrape complete: 76/76 successful
+2025-09-27 20:38:55.945 | INFO     | scrapers.base_scraper:batch_scrape:289 - Success rate: 77/77
+2025-09-27 20:38:55.946 | INFO     | scrapers.script_scrapers:scrape_all_sources:285 - Trying 8flix for Game of Thrones
+2025-09-27 20:39:02.058 | SUCCESS  | utils.captcha_solver:bypass_cloudflare:187 - Cloudflare bypassed successfully
+2025-09-27 20:39:02.059 | SUCCESS  | scrapers.base_scraper:_fetch_cloudscraper:133 - Cloudflare bypass successful: https://8flix.com/search?q=Game+of+Thrones
+2025-09-27 20:39:02.079 | INFO     | scrapers.script_scrapers:scrape_all_sources:285 - Trying subslikescript for Game of Thrones
+2025-09-27 20:39:02.812 | SUCCESS  | scrapers.base_scraper:_fetch_tls_client:111 - TLS client fetch successful: https://subslikescript.com/search?q=Game_of_Thrones
+2025-09-27 20:39:02.813 | INFO     | __main__:extract_character_scenes:50 - Found 76 scripts/episodes
+2025-09-27 20:39:02.814 | DEBUG    | __main__:extract_character_scenes:56 - Skipping duplicate: https://springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=game-of-thrones&episode=s01e03
+2025-09-27 20:39:02.825 | DEBUG    | storage.database:save_scene:105 - Saved scene b22742520049 to SQLite
+2025-09-27 20:39:02.826 | DEBUG    | storage.database:save_scene:105 - Saved scene 29f5ace277e0 to SQLite
+2025-09-27 20:39:02.827 | DEBUG    | storage.database:save_scene:105 - Saved scene bc98377b4bb4 to SQLite
+2025-09-27 20:39:02.828 | DEBUG    | storage.database:save_scene:105 - Saved scene 2a5283d54d4d to SQLite
+2025-09-27 20:39:02.829 | DEBUG    | storage.database:save_scene:105 - Saved scene dd1863dbda42 to SQLite
+2025-09-27 20:39:02.830 | DEBUG    | storage.database:save_scene:105 - Saved scene bcf615dece66 to SQLite
+2025-09-27 20:39:02.831 | DEBUG    | storage.database:save_scene:105 - Saved scene 31c33e5508e1 to SQLite
+2025-09-27 20:39:02.832 | DEBUG    | storage.database:save_scene:105 - Saved scene c214da30cd97 to SQLite
+2025-09-27 20:39:02.833 | DEBUG    | storage.database:save_scene:105 - Saved scene 8954be4b9936 to SQLite
+2025-09-27 20:39:02.834 | DEBUG    | storage.database:save_scene:105 - Saved scene 2802e13e31b8 to SQLite
+2025-09-27 20:39:02.835 | DEBUG    | storage.database:save_scene:105 - Saved scene 1c065ffbb13f to SQLite
+2025-09-27 20:39:02.836 | DEBUG    | storage.database:save_scene:105 - Saved scene 0f892d5eefc0 to SQLite
+2025-09-27 20:39:02.837 | DEBUG    | storage.database:save_scene:105 - Saved scene ac753ba8db5e to SQLite
+2025-09-27 20:39:02.838 | DEBUG    | storage.database:save_scene:105 - Saved scene 376ba26788eb to SQLite
+2025-09-27 20:39:02.839 | DEBUG    | storage.database:save_scene:105 - Saved scene 3503fa54f68d to SQLite
+2025-09-27 20:39:02.840 | DEBUG    | storage.database:save_scene:105 - Saved scene bdd472d1cb6c to SQLite
+2025-09-27 20:39:02.841 | DEBUG    | storage.database:save_scene:105 - Saved scene 28c70e182c6f to SQLite
+2025-09-27 20:39:02.842 | DEBUG    | storage.database:save_scene:105 - Saved scene 5a23fbdf3129 to SQLite
+2025-09-27 20:39:02.843 | DEBUG    | storage.database:save_scene:105 - Saved scene 0c4eb38311a9 to SQLite
+2025-09-27 20:39:02.844 | DEBUG    | storage.database:save_scene:105 - Saved scene f870b231c956 to SQLite
+2025-09-27 20:39:02.845 | DEBUG    | storage.database:save_scene:105 - Saved scene 26dd78c812d2 to SQLite
+2025-09-27 20:39:02.846 | DEBUG    | storage.database:save_scene:105 - Saved scene c86cbd9e8b8e to SQLite
+2025-09-27 20:39:02.847 | DEBUG    | storage.database:save_scene:105 - Saved scene a32bf9a8a96f to SQLite
+2025-09-27 20:39:02.848 | DEBUG    | storage.database:save_scene:105 - Saved scene 129ed6310ec5 to SQLite
+2025-09-27 20:39:02.848 | DEBUG    | storage.database:save_scene:105 - Saved scene 165ab8e579a8 to SQLite
+2025-09-27 20:39:02.849 | DEBUG    | storage.database:save_scene:105 - Saved scene 845f6ba6177d to SQLite
+2025-09-27 20:39:02.850 | DEBUG    | storage.database:save_scene:105 - Saved scene 80d3868d4e32 to SQLite
+2025-09-27 20:39:02.851 | DEBUG    | storage.database:save_scene:105 - Saved scene 5aac9b9e834a to SQLite
+2025-09-27 20:39:02.852 | DEBUG    | storage.database:save_scene:105 - Saved scene a8e9d9e56aeb to SQLite
+2025-09-27 20:39:02.853 | DEBUG    | storage.database:save_scene:105 - Saved scene 62079cc2d8a6 to SQLite
+2025-09-27 20:39:02.854 | DEBUG    | storage.database:save_scene:105 - Saved scene 6ef848c6af80 to SQLite
+2025-09-27 20:39:02.854 | DEBUG    | storage.database:save_scene:105 - Saved scene de59f88d543b to SQLite
+2025-09-27 20:39:02.855 | DEBUG    | storage.database:save_scene:105 - Saved scene 6fb29e1a6a58 to SQLite
+2025-09-27 20:39:02.856 | INFO     | __main__:extract_character_scenes:69 - Extracted 33 scenes for tywin_lannister

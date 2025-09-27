@@ -8,7 +8,7 @@ import sys
 from scrapers.script_scrapers import UniversalScriptScraper, CharacterSceneExtractor
 from storage.database import StorageManager
 from models.scene import Scene, SceneCollection, DialogueLine
-from config.settings import TARGET_CHARACTERS, SCRAPING_CONFIG
+from settings import TARGET_CHARACTERS, SCRAPING_CONFIG
 
 # Configure logging
 logger.remove()

@@ -97,7 +97,7 @@ reward = 0.4*operational_precision + 0.3*systemic_control +
 
 | Character | Scenes | Decision Traces |
 |-----------|--------|-----------------|
-| Tywin | 0 | 0 |
+| Tywin | 33 | 0 |
 | Chuck | 52 | 0 |
 | Partagaz | 8 | 0 |
 | Logan Roy | 20 | 0 |

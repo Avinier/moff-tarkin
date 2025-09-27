@@ -7,7 +7,7 @@ import sys
 sys.path.append('..')
 
 from scrapers.base_scraper import BaseScraper
-from config.settings import TARGET_CHARACTERS
+from settings import TARGET_CHARACTERS
 
 class SpringfieldScraper(BaseScraper):
     """Scraper for Springfield Springfield scripts"""
@@ -29,7 +29,11 @@ class SpringfieldScraper(BaseScraper):
         episodes = []
 
         for link in soup.select('a[href*="view_episode_scripts"]'):
-            episode_url = self.base_url + link.get('href')
+            href = link.get('href')
+            if href.startswith('/'):
+                episode_url = self.base_url + href
+            else:
+                episode_url = self.base_url + '/' + href
             episodes.append(episode_url)
 
         logger.info(f"Found {len(episodes)} episodes for {show_name}")
@@ -83,7 +87,11 @@ class EightFlixScraper(BaseScraper):
         # Find first matching show
         show_link = soup.select_one('a[href*="/tvshow/"]')
         if show_link:
-            return self.base_url + show_link.get('href')
+            href = show_link.get('href')
+            if href.startswith('/'):
+                return self.base_url + href
+            else:
+                return self.base_url + '/' + href
 
         return None
 
@@ -100,7 +108,10 @@ class EightFlixScraper(BaseScraper):
         for link in soup.select('a[href*="transcript"]'):
             episode_url = link.get('href')
             if not episode_url.startswith('http'):
-                episode_url = self.base_url + episode_url
+                if episode_url.startswith('/'):
+                    episode_url = self.base_url + episode_url
+                else:
+                    episode_url = self.base_url + '/' + episode_url
             episodes.append(episode_url)
 
         return episodes
@@ -195,7 +206,10 @@ class SubslikescriptScraper(BaseScraper):
         for link in soup.select('a[href*="/series/"]'):
             episode_url = link.get('href')
             if not episode_url.startswith('http'):
-                episode_url = self.base_url + episode_url
+                if episode_url.startswith('/'):
+                    episode_url = self.base_url + episode_url
+                else:
+                    episode_url = self.base_url + '/' + episode_url
             episodes.append(episode_url)
 
         return episodes
@@ -272,15 +286,15 @@ class UniversalScriptScraper(BaseScraper):
 
                 if hasattr(scraper, 'get_show_episodes'):
                     episodes = await scraper.get_show_episodes(show_name)
-                    results = await scraper.batch_scrape(episodes[:5])  # Limit for testing
+                    results = await scraper.batch_scrape(episodes)  # Full extraction
                     all_results.extend(results)
 
                 elif hasattr(scraper, 'search_show'):
-                    episodes = await scraper.search_show(show_name)
-                    if isinstance(episodes, str):
-                        episodes = [episodes]
-                    results = await scraper.batch_scrape(episodes[:5])
-                    all_results.extend(results)
+                    show_url = await scraper.search_show(show_name)
+                    if show_url and hasattr(scraper, 'get_season_episodes'):
+                        episodes = await scraper.get_season_episodes(show_url)
+                        results = await scraper.batch_scrape(episodes)  # Full extraction
+                        all_results.extend(results)
 
             except Exception as e:
                 logger.error(f"Error with {scraper.name}: {e}")
@@ -385,7 +399,7 @@ class CharacterSceneExtractor:
 
         return False
 
-    def _extract_from_raw_script(self, text: str, names: List[str]) -> List[str]:
+    def _extract_from_raw_script(self, text: str, names: List[str]) -> str:
         """Extract relevant portions from raw script"""
         lines = text.split('\n')
         extracted = []
@@ -399,4 +413,5 @@ class CharacterSceneExtractor:
                 context = lines[start:end]
                 extracted.extend(context)
 
-        return extracted
+        # Return as a single string joined by newlines
+        return '\n'.join(extracted)
